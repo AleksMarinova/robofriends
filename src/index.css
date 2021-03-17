@@ -5,7 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(247,209,235,1) 37%, rgba(142,176,184,1) 100%, rgba(0,212,255,0.6432948179271709) 100%);
+  background-image: url(/src/galaxy.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
