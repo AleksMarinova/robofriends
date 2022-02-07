@@ -7,7 +7,7 @@ import './app.css';
 
 
 
-const App = () => {
+const App = (props) => {
 
     const [robots, setRobots] = useState([]);
     const [searchfield, setSearchfield] = useState('');
